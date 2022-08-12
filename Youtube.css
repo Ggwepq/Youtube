@@ -15,7 +15,8 @@ body {
     width: 360px;
     height: 50px;
     display: flex;
-
+    border-bottom: 1px solid lightgray;
+    box-shadow: 0px 0px 5px 0px darkgray;
 }
 .ytlogo {
     background-color: rgba(0,0,0,.2);
@@ -50,6 +51,7 @@ body {
   width: 360px;
   height: 40;
   margin-top: -22px;
+  border-bottom: 1px solid lightgray;
 }
 .nvbex {
   position: relative;
@@ -59,7 +61,6 @@ body {
   height: 30px;
   border-right: 1px solid black;
 }
-
 div.Explore {
   margin: auto;
   width: 90px;
@@ -83,25 +84,23 @@ div.Explore {
   bottom: 0px;
   left: 0px;
   width: 360px;
-  height: 70px
+  height: 70px;
+  z-index: 2;
+  border-top: 1px solid lightgray;
 }
 .bmenu ul {
   display: flex;
   list-style: none;
   position: relative;
   top: -10px;
-  
 }
-
 .bmenu li {
 }
-
 .bmenu div {
   text-align: center;
   position: relative;
   left: -40px;
   padding: 3px 15px 1px;
-  
 }
 .bmenu img {
   width: 32px;
@@ -110,4 +109,79 @@ div.Explore {
 .bmenu a {
   text-decoration: none;
   color: #000;
+}
+
+.content {
+  background-color: rgba(0,0,0,.2);
+  width: 360px;
+  height: 526px;
+  overflow: hidden;
+  overflow-y: scroll;
+  z-index: -1;
+}
+.vid1 {
+  background-color: dimgray;
+  width: 360px;
+  height: 300px;
+  padding: 10px;
+}
+.tb1 {
+  width: 340px;
+  height: 230px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.tb1 img {
+  width: 100%;
+  height: 100%;
+}
+.name1 {
+  background-color: white;
+  width: 340px;
+  height: 70px;
+  padding: 10px 0px 10px 0px;
+  display: flex;
+}
+.chlogo1 {
+  width: 50px;
+  height: 50px;
+  border-right: 1px solid lightgray;
+  padding-right: 10px;
+}
+.chlogo1 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: yellow;
+}
+.vtitle {
+  background-color: red;
+  width: 320px;
+  height: 30px;
+}
+
+
+.vid2 {
+  background-color: brown;
+  width: 360px;
+  height: 300px;
+  padding: 10px;
+}
+.vid3 {
+  background-color: pink;
+  width: 360px;
+  height: 300px;
+  padding: 10px;
+}
+.vid4 {
+  background-color: greenyellow;
+  width: 360px;
+  height: 300px;
+  padding: 10px;
+}
+.vid5 {
+  background-color: blue;
+  width: 360px;
+  height: 300px;
+  padding: 10px;
 }
