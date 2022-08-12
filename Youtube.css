@@ -7,19 +7,16 @@ body {
 }
 
 .nvbar {
-    background-color: rgba(0,0,0,.2);
     width: 360px;
     height: 90px;
 }
 
 .nvb1 {
-    background-color: rgba(0,0,0,.2);
     width: 360px;
     height: 50px;
     display: flex;
 
 }
-
 .ytlogo {
     background-color: rgba(0,0,0,.2);
     width: 150px;
@@ -30,7 +27,6 @@ body {
   padding: 0;
 }
 .tmenu {
-    background-color: rgba(0,0,0,.2);
     position: relative;
     top: 0;
     left: 40px;
@@ -38,22 +34,19 @@ body {
     height: 50px;
     align-items: center;
 }
-
-ul {
+.tmenu ul {
   position: relative;
   display: flex;
   float: right;
   margin-right: 10px;
   top: 0;
 }
-
-li {
+.tmenu li {
   padding-left: 20px;
   list-style: none;
 }
 
 .nvb2 {
-  background: rgba(0,0,0,.2);
   width: 360px;
   height: 40;
   margin-top: -22px;
@@ -62,7 +55,6 @@ li {
   position: relative;
   top: 5px;
   left: 2px;
-  background-color: rgba(2,2,2,.2);
   width: 120px;
   height: 30px;
   border-right: 1px solid black;
@@ -70,15 +62,52 @@ li {
 
 div.Explore {
   margin: auto;
-  background-color: black;
   width: 90px;
   height: 30px;
   text-align: center;
   position: relative;
   left: 10px;
 }
-
 .Explore h4 {
   position: relative;
   top: 4px;
+  font-weight: lighter;
+}
+.Explore a {
+  color: #000;
+  text-decoration: none;
+}
+
+.bmenu {
+  position:fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 360px;
+  height: 70px
+}
+.bmenu ul {
+  display: flex;
+  list-style: none;
+  position: relative;
+  top: -10px;
+  
+}
+
+.bmenu li {
+}
+
+.bmenu div {
+  text-align: center;
+  position: relative;
+  left: -40px;
+  padding: 3px 15px 1px;
+  
+}
+.bmenu img {
+  width: 32px;
+  height: 32px;
+}
+.bmenu a {
+  text-decoration: none;
+  color: #000;
 }
